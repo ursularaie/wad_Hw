@@ -2,7 +2,6 @@ let postsTemplate = document.querySelector(".post_template");
 let postsDiv = document.getElementById("posts");
 
 function showPosts(post) {
-    console.log(post)
     let clone = postsTemplate.content.cloneNode(true);
 
     clone.querySelector(".post_profile_pic").src = post.profileImage;
