@@ -1,8 +1,16 @@
-# wad_Hw_1
-## Info
-Web application development course homework 1.
+## Project Information
+Web Applications Development course homeworks repo.
+
+* **Homework 1:** static webpage, HTML and CSS
+* **Homework 2:** dynamic additions, JavaScript and JSON integration, endpoint hosting and local, page style improved
+
+---
+
 ## Team Y
 Eleonoora Kõrge, Ursula Raie, Tuuli-Mia Haas
+
+---
+
 ## Usage
 * Fork the repo.
-* Open it in an IDE that is capable of interpreting HTML and CSS, for example Visual Studio Code.
+* Open it in a capable IDE or by file.
