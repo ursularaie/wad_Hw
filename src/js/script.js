@@ -26,10 +26,6 @@ function showPosts(post) {
     postsDiv.appendChild(clone);
 }
 
-document.getElementById('loginForm')?.addEventListener('submit', (e) => {
-    e.preventDefault();
-    window.location.href = 'index.html';
-});
 
 /* fetch('https://api.npoint.io/c288ee2d6ecfa4f502b7')
     .then((response) => response.json())
