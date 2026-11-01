@@ -175,7 +175,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #9a9a9a;
+    background-color: #d0dee6;
     border-radius: 5px;
 }
 /* specific index.html stuff stops here */
@@ -364,3 +364,40 @@ a.forgot-link{
     text-decoration: none;
 }
 
+.home-page {
+    background-image: url('../../images/homepage.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login-page{
+    background-image: url('../../images/loginpage.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.post-page{
+    background-image: url('../../images/postpage.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.home-page .header {
+    background-color: #99b2bd; /* Replace with your desired color */
+}
+
+/* Header color for Add Post page */
+.post-page .header {
+    background-color: #6a5454; /* Replace with your desired color */
+}
+
+/* Header color for Login page */
+.login-page .header {
+    background-color: #f3eca4;
+}
